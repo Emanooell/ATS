@@ -1,29 +1,122 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@400;700&display=swap');
+
+* {
     padding: 0;
     margin: 0;
+
 }
 
-:root{
+:root {
     --cor-de-fundo: #2995E2;
     --branco: #FFFFFF;
-}
-.cabecalho{
-  
+    --fonte-primaria: "Segoe UI", Arial, sans-serif;
+    --fonte-secundaria: 'Hind Vadodara', sans-serif;
+    --cor-verde: #009A47;
+    --cor-strong: #331B3B;
 }
 
-.lista{
+.container {
+    align-items: center;
+
+}
+
+.cabecalho {
+
+    background-color: var(--cor-de-fundo);
+}
+
+
+.lista {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    gap: 3.75em;
+    list-style: none;
+    align-items: center;
+    text-align: center;
 }
 
-.lista__link{
+.lista__link {
     text-decoration: none;
     color: var(--branco);
-    font-size: 20px;
+    font-size: 1.8em;
+    font-family: var(--fonte-primaria);
 }
 .lista__item__imagem{
-    width: 80%;
+    margin-top: 1em;
+}
+
+
+.primeira-secao {
+    background-image: url('../imagens/ImagemFundo.svg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+}
+
+.segunda-secao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao {
+    align-items: center;
+    margin: 0 3em;
+    position: relative;
+}
+
+.secao__titulo {
+    font-size: 3.75em;
+    font-family: var(--fonte-secundaria);
+    color: var(--branco);
+}
+
+.secao__paragrafo {
+    color: var(--branco);
+    font-size: 2.5em;
+
+}
+
+.secao__link {
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.3em;
+    padding: 1em;
+    background-color: var(--cor-verde);
+    color: var(--branco);
+    align-items: center;
+    border-radius: 1em;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 2.5em;
+    font-weight: 400;
+    white-space: pre-line;
+
+
+}
+
+.secao__link img {
+    vertical-align: middle;
+    margin-right: 0.6em;
     
-  
+
+}
+.terceira-secao__container{
+    margin: 8em 3em;
+}
+.lista__negocios{
+    display: flex;
+}
+.negocios__titulo{
+    text-align: center;
+    font-size: 48px ;
+    font-family: var(--fonte-secundaria);
+    font-weight: 300;
+    line-height: 1.1 ;
+    
+}
+.negocios__titulo__strong{
+    font-weight: 700;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-strong);
 }
