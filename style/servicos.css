@@ -1,0 +1,22 @@
+.quinta-secao{
+    background-image: url('../imagens/FundoFormulario.svg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.quinta-secao__container {
+    width: 80%;
+    padding: 0em 4em;
+   
+    
+}
+.box{
+    display: flex;
+    background-color: white;
+    width: 35%;
+    gap: 10px;
+}
+.box-container{
+    gap: 20px;
+    display: flex;
+}

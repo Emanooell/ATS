@@ -1,0 +1,77 @@
+.primeira-secao {
+    background-image: url('../imagens/ImagemFundo.svg');
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+
+}
+.cabecalho-container {
+    align-items: center;
+    width: 50%;
+    height: 55vh;
+
+}
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 3.75em;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+.lista__item__imagem {
+    margin-top: 1em;
+}
+
+.lista__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1.52em;
+    font-family: var(--fonte-primaria);
+}
+.segunda-secao {
+    display: flex;
+    justify-content: space-between;
+}
+.secao {
+    align-items: center;
+    margin: 0 3em;
+    position: relative;
+    margin-top: -5em;
+}
+
+.secao__titulo {
+    font-size: 3.75em;
+    color: var(--branco);
+}
+
+.secao__paragrafo {
+    color: var(--branco);
+    font-size: 2.5em;
+
+}
+.secao__link {
+    display: flex;
+    font-size: 1.3em;
+    padding: 1em;
+    background-color: var(--cor-verde);
+    color: var(--branco);
+    align-items: center;
+    border-radius: 1em;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 2.5em;
+    font-weight: 400;
+    white-space: pre-line;
+
+
+}
+
+.secao__link img {
+    vertical-align: middle;
+    margin-right: 0.6em;
+
+
+}

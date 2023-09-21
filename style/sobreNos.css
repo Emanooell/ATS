@@ -1,0 +1,20 @@
+.quarta-secao {
+    display: flex;
+    align-items: center;
+}
+
+.sobre-nos-texto-sublinhado{
+    margin-bottom: 1.5em;
+    margin-left: 14em;
+    
+}
+.sobre-nos img {
+    margin-bottom: 3em;
+   
+}
+
+.sobre-nos__paragrafo {
+
+    font-size: 24px;
+    color: var(--cor-paragrafo);
+}

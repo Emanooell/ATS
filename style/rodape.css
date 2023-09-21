@@ -1,0 +1,10 @@
+.rodape{
+    padding: 4em 0;
+}
+
+.rodape__titulo {
+    text-align: center;
+    font-size: 16px;
+    color: var(--cor-paragrafo);
+    font-family: var(--fonte-terciaria);
+}

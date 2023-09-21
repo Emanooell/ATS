@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apresentação Darm</title>
+    <link rel="stylesheet" href="./style/cabecalho.css">
+    <link rel="stylesheet" href="./style/contato.css">
+    <link rel="stylesheet" href="./style/servicos.css">
+    <link rel="stylesheet" href="./style/sobreNos.css">
+    <link rel="stylesheet" href="./style/rodape.css">
     <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
     <section class="primeira-secao">
-        <header class="cabecalho">
+        <header class="cabecalho-header">
             <div class="cabecalho-container">
                 <ul class="lista">
                     <li class="lista__item">
@@ -18,7 +23,7 @@
                     </li>
                     <li class="lista__item"><a class="lista__link" href="#">Inicio</a></li>
                     <li class="lista__item"><a class="lista__link" href="#">Serviços</a></li>
-                    <li class="lista__item"><a class="lista__link" href="#">Sobre nós</a></li>
+                    <li class="lista__item"><a class="lista__link" href="#">Sobre nos</a></li>
                     <li class="lista__item"><a class="lista__link" href="#">Contato</a></li>
                 </ul>
             </div>
@@ -33,7 +38,7 @@
                     <img src="./imagens/Vector.svg" alt="Ícone do Whatsaapp">Clique aqui para entrar em contato
                     conosco via WhatsApp </a>
             </div>
-            <div>
+            <div class="secao">
                 <img src="./imagens/MulherENotebook.svg" alt="Mulher acessando o Notebook">
             </div>
         </section>
@@ -41,7 +46,7 @@
 
     <section class="terceira-secao">
         <div class="terceira-secao__container">
-            <img class="titulo-sublinhado" src="./imagens/OQueOferecemos.svg" alt="">
+            <img class="titulo-sublinhado" src="./imagens/OQueOferecemos.svg" alt="Imagem do que o que oferecemos">
         </div>
 
         <div class="terceira-secao__cards">
@@ -77,11 +82,11 @@
     <section class="quarta-secao">
         <div class="sobre-nos">
             <img src="./imagens/foto.svg" alt="Foto nossa">
-            <p>Foto nossa</p>
+
 
         </div>
         <div class="sobre-nos-texto">
-            <img class="sobre-nos" src="./imagens/SobreNos.svg" alt="">
+            <img class="sobre-nos-texto-sublinhado" src="./imagens/SobreNos.svg" alt="Sobre nos">
             <p class="sobre-nos__paragrafo">All Tech Solutions! Somos uma startup formada por um grupo apaixonado de
                 quatro
                 amigos universitários que têm em comum a sede por inovação e a vontade de criar soluções tecnológicas
@@ -96,14 +101,18 @@
 
     <section class="quinta-secao">
         <div class="quinta-secao__container">
-
-            <div>
-                <div>
+            <div >
+            <h2>Nossos trabalhos</h2>
+            <p>Recentes</p>
+            <div class="box">
+                <div class="box-container">
+                    <img src="./imagens/BoxRetangulo.svg" alt="Box Retangulo">
+                    <img src="./imagens/BoxRetanguloMenor.svg" alt="Box Retangulo menor">
 
                 </div>
+                <h4 class="">Fitmetic</h4>
             </div>
-        </div>
-
+            </div>
     </section>
 
 
@@ -111,27 +120,27 @@
         <div class="container">
             <h2 class="form__titulo">Entre em contato conosco</h2>
             <p class="form__paragrafo"> Preencha esse formulário que entraremos em contato</p>
-            <form >
-            <div class="form">
-                <div class="form-container">
-                    <label class="form__label" for="nome">Nome completo</label>
-                    <input class="form__input" id="nome" type="nome" required>
+            <form>
+                <div class="form">
+                    <div class="form-container">
+                        <label class="form__label" for="vnome">Nome completo</label>
+                        <input class="form__input" id="nome" type="nome" required>
 
-                    <label class="form__label" for="telefone">Whatsapp ou Telefone</label>
-                    <input class="form__input" id="telefone" type="number" required>
+                        <label class="form__label" for="telefone">Whatsapp ou Telefone</label>
+                        <input class="form__input" id="telefone" type="number" required>
 
+                    </div>
+                    <div class="form-container">
+                        <label class="form__label" for="email">E-mail</label>
+                        <input class="form__input" id="email" type="email" required>
+                        <label class="form__label" for="texto">Nome da empresa</label>
+                        <input class="form__input" id="Empresa" type="nome" required>
+                    </div>
                 </div>
-                <div class="form-container">
-                    <label class="form__label" for="email">E-mail</label>
-                    <input class="form__input" id="email" type="email" required>
-                    <label class="form__label" for="texto">Nome da empresa</label>
-                    <input class="form__input" id="Empresa" type="nome" required>
-                </div>
-            </div>
                 <div class="form__botao-container">
-                    
+
                     <input class="form__botao" type="submit" value="Enviar">
-                </form>
+            </form>
     </section>
 
 
