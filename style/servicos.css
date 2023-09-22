@@ -1,22 +1,67 @@
-.quinta-secao{
+.quinta-secao {
     background-image: url('../imagens/FundoFormulario.svg');
+    display: flex;
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 6em 0;
+    margin-top: -1em;
 }
 
 .quinta-secao__container {
-    width: 80%;
+    width: 100%;
     padding: 0em 4em;
-   
+    padding: 7em;
     
 }
-.box{
+.container__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--cor-strong);
+}
+.container__paragrafo{
+    font-size: 48px;
+    font-weight: 300;
+    color: var(--cor-strong);
+
+}
+.box {
+    padding: 1em;
     display: flex;
-    background-color: white;
+    background-color: var(--branco);
     width: 35%;
     gap: 10px;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+
+    
 }
-.box-container{
+
+.box-container-imagens {
     gap: 20px;
     display: flex;
 }
+
+
+.box-container__texto {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-container__titulo{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--cor-strong);
+}
+.box-container__botao{
+    
+    border-radius: 100px;
+    font-size: 16px;
+    color: var(--branco);
+    background-color: var(--cor-botao);
+    padding: 0.8em 1.7em;
+    border: none;
+    margin-left: 10em;
+}
+
