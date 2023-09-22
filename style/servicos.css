@@ -1,6 +1,5 @@
 .quinta-secao {
-    background-image: url('../imagens/FundoFormulario.svg');
-    margin-right: 6em;
+    background-image: url('../imagens/ImagemFundoServicos.svg');
     display: flex;
     background-size: cover;
     gap: 5em;
@@ -13,7 +12,6 @@
     list-style: none;
     gap: 3em;
     display: flex;
-    flex-wrap: wrap;
 }
 .quinta-secao__container {
    margin-top: 5em;

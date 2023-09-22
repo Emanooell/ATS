@@ -9,7 +9,7 @@
     
 }
 .sobre-nos img {
-    margin-bottom: 3em;
+    margin-bottom: 5em;
    
 }
 
@@ -18,3 +18,17 @@
     font-size: 24px;
     color: var(--cor-paragrafo);
 }
+#imagem{
+    transition: transform 0.3s ease-in-out;
+}
+.rotacao{
+
+        transform: rotate(360deg);
+    }
+   
+    
+    
+    
+    
+    
+    
