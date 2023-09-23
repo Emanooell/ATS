@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./style/sobreNos.css">
     <link rel="stylesheet" href="./style/rodape.css">
     <link rel="stylesheet" href="/index.css">
+    <script src="./index.js"></script>
 </head>
 
 <body>
@@ -81,7 +82,7 @@
 
     <section class="quarta-secao">
         <div class="sobre-nos" >
-            <img id="imagem" src="./imagens/foto.svg" alt="Foto nossa">
+            <img id="imagem-rotacao" src="./imagens/foto.svg" alt="Foto nossa">
 
 
         </div>
@@ -149,10 +150,10 @@
         <div class="container">
             <h2 class="form__titulo">Entre em contato conosco</h2>
             <p class="form__paragrafo"> Preencha esse formulário que entraremos em contato</p>
-            <form>
+            <form id="formulario">
                 <div class="form">
                     <div class="form-container">
-                        <label class="form__label" for="vnome">Nome completo</label>
+                        <label class="form__label" for="nome">Nome completo</label>
                         <input class="form__input" id="nome" type="nome" required>
 
                         <label class="form__label" for="telefone">Whatsapp ou Telefone</label>
@@ -162,7 +163,7 @@
                     <div class="form-container">
                         <label class="form__label" for="email">E-mail</label>
                         <input class="form__input" id="email" type="email" required>
-                        <label class="form__label" for="texto">Nome da empresa</label>
+                        <label class="form__label" for="nome">Nome da empresa</label>
                         <input class="form__input" id="Empresa" type="nome" required>
                     </div>
                 </div>
