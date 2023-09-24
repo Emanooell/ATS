@@ -23,6 +23,7 @@
 }
 .lista__item__imagem {
     margin-top: 1em;
+    width:100%;
 }
 
 .lista__link {
@@ -31,6 +32,12 @@
     font-size: 1.52em;
     font-family: var(--fonte-primaria);
 }
+
+.lista__link:hover{
+    color: var(--cor-hover);
+}
+
+
 .segunda-secao {
     display: flex;
     justify-content: space-between;
@@ -50,7 +57,7 @@
 .secao__paragrafo {
     color: var(--branco);
     font-size: 2.5em;
-
+    
 }
 .secao__link {
     display: flex;
@@ -65,8 +72,13 @@
     margin-top: 2.5em;
     font-weight: 400;
     white-space: pre-line;
-
-
+    
+    
+}
+.secao__link:hover{
+    color: var(--cor-hover);
+    background-color: var( --cor-de-fundo-whatsapp-hover)
+    
 }
 
 .secao__link img {

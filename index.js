@@ -10,10 +10,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const formulario = document.getElementById('formulario')
+    const botao = document.getElementById('botaoEnviar')
 formulario.addEventListener('submit', (evento) =>{
     evento.preventDefault()
+    botao.value = 'Enviado';
+
+    setTimeout(function() {
+        botao.value = 'Enviar';
+    }, 1000);
     formulario.reset()
     
-})
+});
 });
 

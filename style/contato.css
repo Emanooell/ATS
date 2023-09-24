@@ -85,3 +85,8 @@
     cursor: pointer;
 
 }
+.form__botao:hover{
+    color: var(--cor-hover);
+    background-color: var(--cor-fundo-botao-hover);
+
+}

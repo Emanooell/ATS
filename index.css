@@ -21,6 +21,9 @@
     --cor-texto-segundo-formulario: #3F3F3F;
     --cor-botao: #2995E2;
     --cor-vermelho: red;
+    --cor-hover: rgb(176, 176, 231);
+    --cor-fundo-botao-hover: #206ea6;
+    --cor-de-fundo-whatsapp-hover: #007235;
 }
 
 body {
@@ -28,6 +31,7 @@ body {
     font-size: 16px;
    
 }
+
 
 
 
@@ -93,18 +97,14 @@ body {
 }
 
 .card__texto {
-
     font-size: 20px;
     color: var(--cor-paragrafo);
 
 }
 
-.card__imagem {
-    
-    
+.card__imagem { 
     width: 52px;
     height: 40px;
-
 }
 
 
