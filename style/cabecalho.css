@@ -7,6 +7,12 @@
     
 
 }
+.cabecalho {
+
+    background-color: var(--cor-de-fundo);
+}
+
+
 .cabecalho-container {
     align-items: center;
     width: 50%;
