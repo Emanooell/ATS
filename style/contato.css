@@ -62,7 +62,7 @@
     font-size: 17px;
     font-family: var(--fonte-terciaria);
     font-weight: 600;
-    color: var(--cor-de-fundo);
+    color: var(--cor-de-fundo); ;
 }
 
 .form__botao-container {
@@ -83,10 +83,17 @@
     font-weight: 700;
     border: none;
     cursor: pointer;
+   
 
 }
 .form__botao:hover{
     color: var(--cor-hover);
     background-color: var(--cor-fundo-botao-hover);
+    
 
+}
+.form__input:focus{
+    border-color: var(--cor-de-fundo);
+    outline: none;
+    
 }
