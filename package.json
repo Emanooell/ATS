@@ -1,0 +1,26 @@
+{
+  "name": "ats",
+  "version": "1.0.0",
+  "description": "Projeto para apresentação no DARM LABS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emanoel Rodrigues <emanuellegario@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pkg": "^5.8.1"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emanooell/ATS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Emanooell/ATS/issues"
+  },
+  "homepage": "https://github.com/Emanooell/ATS#readme"
+}

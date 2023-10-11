@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./style/servicos.css">
     <link rel="stylesheet" href="./style/sobreNos.css">
     <link rel="stylesheet" href="./style/rodape.css">
-    <script src="./index.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </head>
 
 <body>
@@ -156,21 +157,22 @@
                 <div class="form">
                     <div class="form-container">
                         <label class="form__label" for="nome">Nome completo</label>
-                        <input class="form__input" id="nome" type="nome" required>
+                        <input class="form__input" id="nome" type="text" name="nome" required>
 
                         <label class="form__label" for="telefone">Whatsapp ou Telefone</label>
-                        <input class="form__input" id="telefone" type="number" required>
+                        <input class="form__input" id="telefone" type="tel" name="telefone" required>
 
                     </div>
                     <div class="form-container">
                         <label class="form__label" for="email">E-mail</label>
-                        <input class="form__input" id="email" type="email" required>
+                        <input class="form__input" id="email" type="email" name="email" required>
                         <label class="form__label" for="nome">Nome da empresa</label>
-                        <input class="form__input" id="Empresa" type="nome" required>
+                        <input class="form__input" id="Empresa" type="text" name="empresa" required>
                     </div>
                 </div>
                 <div class="form__botao-container">
-                    <input id="botaoEnviar" class="form__botao" type="submit" value="Enviar">
+                    <input id="botaoEnviar" class="form__botao" type="button" value="Enviar">
+
             </form>
     </section>
 
@@ -180,6 +182,7 @@
 
     </footer>
 
+    <script src="./index.js"></script>
 </body>
 
 </html>
