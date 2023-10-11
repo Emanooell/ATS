@@ -14,13 +14,13 @@ app.post('/enviar-email', async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'api.bookstore11@gmail.com', 
-      pass: 'mlegmjybjouygibz', 
+      user: 'emanoelcartao@gmail.com', 
+      pass: 'swns ohxi hsnb uhof', 
     },
   });
 
   const mailOptions = {
-    from: 'api.bookstore11@gmail.com',
+    from: 'emanoelcartao@gmail.com',
     to: destinatario,
     subject: assunto,
     text: corpo,
