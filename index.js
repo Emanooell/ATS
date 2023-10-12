@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const dadosEmail = {
                 destinatario: email,
                 assunto: 'Bem vindo a ATS',
-                corpo: `Olá, ${nome}, Obrigado por ter encontrado conosco. Nós da equipe ATS será um prazer poder ajudá-lo! Conte mais sobre o que você deseja e suas ideias!`,
+                corpo: `Olá, ${nome}, Obrigado por ter encontrado conosco. Nós da equipe ATS teremos um prazer poder ajudá-lo! Conte mais sobre o que você deseja e suas ideias!`,
             };
 
             fetch('http://localhost:3000/enviar-email', {
